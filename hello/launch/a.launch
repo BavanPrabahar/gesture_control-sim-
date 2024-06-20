@@ -1,0 +1,26 @@
+<launch>
+
+  
+ 
+
+
+  <node
+    pkg="hello"
+    type="wpub.py"
+    name="webcam_pub"
+    output="screen"
+  />
+  <node
+    pkg="hello"
+    type="spub.py"
+    name="webcam_sub"
+    output="screen"
+  />
+   <node
+    pkg="hello"
+    type="sspub.py"
+    name="webcam_ssub"
+    output="screen"
+  />
+  
+</launch>
