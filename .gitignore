@@ -1,0 +1,22 @@
+# ROS workspaces
+build/
+devel/
+install/
+log/
+.catkin_workspace
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
